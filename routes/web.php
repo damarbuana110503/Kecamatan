@@ -15,7 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [MainController::class, 'index'])->name('dashboard');
+
+
+Route::get('/', [MainController::class, 'index'])->name('halaman-utama');
 
 Route::middleware(['auth'])->group(function () {
     Route::prefix('backend')->name('backend.')->group(function () {

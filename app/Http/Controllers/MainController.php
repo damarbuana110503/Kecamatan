@@ -8,7 +8,8 @@ class MainController extends Controller
 {
     public function index()
     {
-        return view('auth.login');
+        return view('frontend.halaman-utama');
+        // return view('auth.login');
     }
 
     public function main()

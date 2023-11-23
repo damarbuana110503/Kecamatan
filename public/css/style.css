@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Bagian navbar 1 */
+
+.row a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.sosial-media a {
+  margin-right: 16px;
+}
+
+.logo-kecamatan span {
+  font-family: inter, sans-serif;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+/* Bagian Navbar 2 */
+
+
+.container-2 {
+  margin: auto;
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+.nav-item img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.nav-link a {
+  display: block;
+  width: 225px;
+  height: 220px;
+}
+
+.tombol a  {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.search a span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.tombol .btn {
+  border-radius: 12px;
+  background: #008CAE;
+  color: white;
+  font-family: inter, sans-serif;
+  font-size: 15px;
+  padding: 16px 24px;
+}
+
+.tombol a:hover {
+  background: #21a8c9;
+}
+
+
+/* bagian jumbotron */
+
+.jumbotron {
+  background-color: #21a8c9;
+  height: 680px;
+  color: white;
+}
+
+.perkenalan {
+  padding-top: 150px;
+}
+
+.perkenalan a {
+  background-color: white;
+  margin-top: 50px;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
